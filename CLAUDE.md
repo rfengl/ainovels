@@ -20,7 +20,7 @@
 5. **产生新设定就回填 `CORE_WORLD.md`**，保持唯一真理来源。
 
 ## 工作流（用户硬性要求）
-- **每写完新一章（修改不必commit），立刻：`git add 该文件` → `git commit` → `git push`。一章一个 commit。**
+- **每写完或修改新一章，立刻：`git add 该文件` → `git commit` → `git push`。一章一个 commit。**
 - commit message 结尾加：`Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`
 - 远端仓库：**https://github.com/rfengl/jinglinggongzhulaiqiaomen** （分支 `main`，凭据已配置，可直接 push）。
 - 环境：Windows + Git Bash；**无 python**（用 `wc -m` 数字）；换行 LF→CRLF 警告可忽略。
